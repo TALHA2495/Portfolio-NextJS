@@ -13,10 +13,10 @@ export function Projects() {
           <div className="grid grid-cols-1 lg:col-span-12 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7 order-2 lg:order-1">
               <div className="bg-surface-container aspect-video rounded-2xl overflow-hidden shadow-2xl relative group">
-                <img 
-                  alt="Nexus Platform" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD34K061JvZDlepQUgHq0zVRptsRKpeEGEhxyyuFdLaKws7e_I_m-BZToejmRHosTWD_Ebh9FaCQ2vt_bePpqD7MovphCUE638j5uhilmsZUDmFPMGdfPuYOUVZux8EuNdQkysqGzJn1LWICflHCrV2z_SWJlpH3qTOOF2xZmbi_ejnUr04pP53DDeujqkuXZzAegJ6kb7R1lC4dEejviB3KGzmo5VnVPWqMhKZWIg677JPQ3YbHDYsEWo2RD37g3BZ7tAZ93t4qSY" 
+                <img
+                  alt="Nexus Platform"
+                  className="w-full h-full object-fit group-hover:scale-105 transition-transform duration-700"
+                  src="/assets/images/cocktails-screenshot.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
@@ -25,20 +25,20 @@ export function Projects() {
               <div className="mb-6">
                 <span className="font-label text-on-secondary-container px-3 py-1 bg-secondary-container rounded-full text-[10px] uppercase tracking-widest">Collaboration Platform</span>
               </div>
-              <h3 className="font-headline text-4xl font-bold mb-2">Nexus</h3>
-              <p className="text-primary font-bold mb-6">Investor & Entrepreneur Collaboration Platform</p>
+              <h3 className="font-headline text-4xl font-bold mb-2">Cocktail Showcase</h3>
+              <p className="text-primary font-bold mb-6">GSAP Animated Cocktail Showcase</p>
               <p className="text-on-surface-variant text-lg leading-relaxed mb-8">
-                A full-stack collaboration platform connecting investors and entrepreneurs. Features include multi-user authentication, meetings scheduling, document management, and CRUD-based activity tracking.
+                An interactive cocktail discovery platform featuring smooth GSAP scroll animations, dynamic drink browsing, and a visually immersive UI. Built to demonstrate advanced animation techniques and responsive frontend design.
               </p>
               <div className="flex flex-wrap gap-2 mb-10">
-                {["React.js", "Node.js", "Express.js", "MongoDB", "JWT"].map(tech => (
+                {["React.js", "GSAP", "Tailwind CSS", "Responsive Design"].map(tech => (
                   <span key={tech} className="bg-surface-container-high px-4 py-1.5 rounded-lg text-sm font-semibold border border-outline-variant/10">
                     {tech}
                   </span>
                 ))}
               </div>
-              <Link href="#" className="text-primary font-bold text-lg flex items-center gap-2 group">
-                Explore Case Study
+              <Link target="blank" href="https://gsap-cocktailes-qbg7.vercel.app/" className="text-primary font-bold text-lg flex items-center gap-2 group">
+                Watch on Github
                 <span className="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
               </Link>
             </div>
@@ -61,17 +61,17 @@ export function Projects() {
                   </span>
                 ))}
               </div>
-              <Link href="#" className="text-primary font-bold text-lg flex items-center gap-2 group">
-                Explore Case Study
+              <Link target="blank" href="https://frontend-eta-two-85.vercel.app/" className="text-primary font-bold text-lg flex items-center gap-2 group">
+                Watch on Github
                 <span className="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
               </Link>
             </div>
             <div className="lg:col-span-7">
               <div className="bg-surface-container aspect-video rounded-2xl overflow-hidden shadow-2xl relative group">
-                <img 
-                  alt="E-Commerce App" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2x92xiTEmUCh-moNer4yZGR-trcq_wL_fVBszk78CNMWq_6ya156X4PTZ0cazEpwwXe0G7jA49Nqtat6LkbXZIvyjuCB8DXVc05oVgQR0OvPHt5P9vwteyDD3yE_JOtrltJOrZqJpUwHhexORQazqnYyN5u5AWihkk48lckKAiqqQHIr98oTGJSYZQpraNIwLvBdbe1QaRzfHPO1_Q3asMkWSlWwl0WzDAJRLWAzBjwpfNqqXRzC0X4WtQqorKY-jBZV_DJXnOSk" 
+                <img
+                  alt="E-Commerce App"
+                  className="w-full h-full object-fit group-hover:scale-105 transition-transform duration-700"
+                  src="/assets/images/ecommerce-screenshot.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>

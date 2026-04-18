@@ -1,10 +1,10 @@
 export function Skills() {
   return (
-    <section className="px-8 pt-32 pb-16" id="skills">
+    <section className="px-8 pt-16 md:pt-32 pb-16" id="skills">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-end mb-16">
           <div>
-            <span className="font-label text-primary tracking-[0.2em] text-xs uppercase mb-4 block">The Toolkit</span>
+            <span className="font-label text-primary tracking-[0.2em] text-xs uppercase mb-4 hidden md:block">The Toolkit</span>
             <h2 className="font-headline text-5xl font-bold tracking-tight">Technical Proficiency</h2>
           </div>
         </div>

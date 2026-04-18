@@ -57,7 +57,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <span className="font-label text-primary tracking-[0.2em] text-xs uppercase mb-6 block">Junior Software Engineer | CS Undergraduate</span>
+          <span className="font-label text-primary tracking-[0.2em] text-xs uppercase mb-4 block">Junior Software Engineer | CS Undergraduate</span>
           <h1 className="font-headline text-[clamp(3rem,8vw,5.5rem)] font-black leading-[0.9] tracking-tighter mb-8">
             TALHA <span className="text-outline-variant">JAVED</span>
             <br />
@@ -65,22 +65,22 @@ export function Hero() {
               {text}
             </span>
           </h1>
-          <p className="text-on-surface-variant text-xl md:text-2xl max-w-3xl mb-8 font-medium leading-relaxed">
+          <p className="text-on-surface-variant text-xl md:text-lg max-w-3xl mb-6 font-medium leading-relaxed">
             Computer Science undergraduate with hands-on experience building full-stack web applications using <span className="text-on-surface underline decoration-primary/40 underline-offset-4">React.js, Node.js, Express.js, and MongoDB</span>. Passionate about creating responsive user interfaces, building clean REST APIs, and solving real-world problems through code.
           </p>
-          <div className="flex items-center gap-2 mb-12 text-on-surface-variant font-label text-sm uppercase tracking-wider">
+          <div className="flex items-center gap-2 mb-8 text-on-surface-variant font-label text-sm uppercase tracking-wider">
             <span>📍 Faisalabad, Pakistan</span>
           </div>
-          <div className="flex flex-wrap gap-4 mb-16">
+          <div className="flex flex-wrap gap-4 mb-14">
             <Link
               href="#projects"
-              className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-lg font-bold text-lg shadow-lg shadow-primary/10 transition-transform hover:scale-105"
+              className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-4 py-4 rounded-lg font-bold text-lg shadow-lg shadow-primary/10 transition-transform hover:scale-105"
             >
               View Projects
             </Link>
             <Link
               href="#contact"
-              className="bg-surface-container-high border border-outline-variant/20 text-on-surface px-8 py-4 rounded-lg font-bold text-lg hover:bg-surface-container-highest transition-colors"
+              className="bg-surface-container-high border border-outline-variant/20 text-on-surface px-4 py-4 rounded-lg font-bold text-lg hover:bg-surface-container-highest transition-colors"
             >
               Contact Me
             </Link>

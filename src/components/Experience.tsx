@@ -8,7 +8,7 @@ export function Experience() {
   ];
 
   return (
-    <section className="pt-32 pb-16 px-8 relative overflow-hidden" id="experience">
+    <section className="pt-26 pb-16 px-8 relative overflow-hidden" id="experience">
       <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/5 -skew-x-12 transform origin-top translate-x-32 pointer-events-none"></div>
       <div className="max-w-7xl mx-auto">
         <h2 className="font-headline text-4xl font-bold mb-16">Professional Trajectory</h2>

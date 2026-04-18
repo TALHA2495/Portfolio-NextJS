@@ -14,9 +14,9 @@ export function About() {
           <p className="text-on-surface-variant text-[1.35rem] leading-relaxed">
             I focus on writing clean, maintainable code, building responsive interfaces, and delivering functional software. I'm actively seeking junior software engineering or MERN stack internship opportunities.
           </p>
-          <div className="flex gap-6 pt-6">
-            <a className="text-on-surface-variant hover:text-primary transition-colors text-[1.35rem]" href="https://github.com/TALHA2495" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a className="text-on-surface-variant hover:text-primary transition-colors text-[1.35rem]" href="https://www.linkedin.com/in/talha-javed-005b24328" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <div className="hidden md:flex gap-6 pt-6">
+            <a className="text-on-surface-variant hover:text-primary transition-colors text-[1.35rem]" href="https://github.com/TALHA2495" target="_blank" rel="noopener noreferrer">GitHub </a> <span className="text-[1.35rem]">|</span>
+            <a className="text-on-surface-variant hover:text-primary transition-colors text-[1.35rem]" href="https://www.linkedin.com/in/talha-javed-005b24328" target="_blank" rel="noopener noreferrer">LinkedIn </a> <span className="text-[1.35rem]">|</span>
             <a className="text-on-surface-variant hover:text-primary transition-colors text-[1.35rem]" href="mailto:tjaveed507@gmail.com">Email</a>
           </div>
         </div>
