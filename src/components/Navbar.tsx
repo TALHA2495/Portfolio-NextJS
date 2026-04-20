@@ -90,8 +90,8 @@ export function Navbar() {
 
         {/* Download Resume — tablet & desktop */}
         <a
-          href="/Talha_Javed_Resume.pdf"
-          download="Talha_Javed_Resume.pdf"
+          href="/Talha_Javed_Resume printing final.pdf"
+          download="Talha_Javed_Resume printing final.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-block bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2 rounded-lg font-bold hover:scale-95 transition-transform"
