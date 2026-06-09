@@ -44,7 +44,7 @@ export function Hero() {
   }, [text, isDeleting, loopNum]);
 
   return (
-    <section className="min-h-screen pt-32 pb-16 px-8 relative overflow-hidden flex items-center" id="home">
+    <section className="min-h-screen pt-32 pb-32 md:pb-16 px-8 relative overflow-hidden flex items-center" id="home">
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 blur-[120px] rounded-full animate-float"></div>
         <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-secondary-container/5 blur-[150px] rounded-full animate-float" style={{ animationDelay: "3s" }}></div>
@@ -57,16 +57,17 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <span className="font-label text-primary tracking-[0.2em] text-xs uppercase mb-4 block">Junior Software Engineer | CS Undergraduate</span>
-          <h1 className="font-headline text-[clamp(3rem,8vw,5.5rem)] font-black leading-[0.9] tracking-tighter mb-8">
+          <span className="font-label text-primary tracking-[0.2em] text-xs uppercase -mt-4 mb-2 block">Junior Software Engineer | CS Undergraduate</span>
+          <h1 className="font-headline text-[clamp(2.5rem,8vw,5.5rem)] sm:text-[clamp(3rem,8vw,5.5rem)] font-black leading-tight sm:leading-[1] tracking-tighter mb-12">
             TALHA <span className="text-outline-variant">JAVED</span>
             <br />
-            <span className="text-primary font-serif font-normal lowercase tracking-normal border-r-[3px] border-primary animate-blink pr-1">
+            <span className="text-primary text-md  font-serif font-normal lowercase tracking-0  border-r-[3px] border-primary animate-blink pr-1">
               {text}
             </span>
           </h1>
-          <p className="text-on-surface-variant text-xl md:text-lg max-w-3xl mb-6 font-medium leading-relaxed">
-            Computer Science undergraduate with hands-on experience building full-stack web applications using <span className="text-on-surface underline decoration-primary/40 underline-offset-4">React.js, Node.js, Express.js, and MongoDB</span>. Passionate about creating responsive user interfaces, building clean REST APIs, and solving real-world problems through code.
+          
+          <p className="text-on-surface-variant text-xl md:text-lg max-w-3xl mb-4 font-medium leading-relaxed">
+            Computer Science undergraduate with hands-on experience building full-stack web applications using <span className="text-on-surface underline decoration-primary/40 underline-offset-4">React.js, Node.js, Express.js, and MongoDB</span>. Passionate about creating responsive user interfaces, building clean REST APIs, and solving real-world problems.
           </p>
           <div className="flex items-center gap-2 mb-8 text-on-surface-variant font-label text-sm uppercase tracking-wider">
             <span>📍 Faisalabad, Pakistan</span>
@@ -74,13 +75,13 @@ export function Hero() {
           <div className="flex flex-wrap gap-4 mb-14">
             <Link
               href="#projects"
-              className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-4 py-4 rounded-lg font-bold text-lg shadow-lg shadow-primary/10 transition-transform hover:scale-105"
+              className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-4 py-4 rounded-lg font-bold text-md shadow-lg shadow-primary/10 transition-transform hover:scale-105"
             >
               View Projects
             </Link>
             <Link
               href="#contact"
-              className="bg-surface-container-high border border-outline-variant/20 text-on-surface px-4 py-4 rounded-lg font-bold text-lg hover:bg-surface-container-highest transition-colors"
+              className="bg-surface-container-high border border-outline-variant/20 text-on-surface px-4 py-4 rounded-lg font-bold text-md hover:bg-surface-container-highest transition-colors"
             >
               Contact Me
             </Link>

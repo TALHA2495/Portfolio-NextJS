@@ -89,15 +89,15 @@ export function Navbar() {
         </div>
 
         {/* Download Resume — tablet & desktop */}
-        <a
+        {/* <a
           href="/Talha_Javed_Resume printing final.pdf"
-          download="Talha_Javed_Resume printing final.pdf"
+          download="Resume for Portfolio.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:inline-block bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2 rounded-lg font-bold hover:scale-95 transition-transform"
+          className="hidden md:inline-block bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2 rounded-lg font-bold hover:scale-95 transition-transform hidden"
         >
           Download Resume
-        </a>
+        </a> */}
 
         {/* Hamburger — mobile only */}
         <button
@@ -143,7 +143,7 @@ export function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
-                className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-3 rounded-lg font-bold text-center mt-4 uppercase tracking-wider"
+                className="hidden bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-3 rounded-lg font-bold text-center mt-4 uppercase tracking-wider"
               >
                 Download Resume
               </a>
